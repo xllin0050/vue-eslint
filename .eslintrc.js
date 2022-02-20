@@ -5,6 +5,7 @@ module.exports = {
         'vue/setup-compiler-macros': true,
     },
     extends: ['plugin:vue/vue3-recommended', 'airbnb-base', 'prettier'],
+    parser: 'vue-eslint-parser',
     parserOptions: {
         ecmaVersion: 12,
         sourceType: 'module',
