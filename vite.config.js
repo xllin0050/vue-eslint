@@ -4,7 +4,7 @@ import eslintPlugin from 'vite-plugin-eslint'
 import Icons from 'unplugin-icons/vite'
 import Components from 'unplugin-vue-components/vite'
 import legacy from '@vitejs/plugin-legacy'
-import viteCompression from 'vite-plugin-compression'
+import compress from 'vite-plugin-compress'
 const path = require('path')
 
 // https://vitejs.dev/config/
@@ -21,7 +21,7 @@ export default defineConfig({
         legacy({
             targets: ['defaults', 'not IE 11'],
         }),
-        viteCompression(),
+        compress(),
     ],
     resolve: {
         alias: {

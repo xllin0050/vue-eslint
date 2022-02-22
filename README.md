@@ -9,4 +9,4 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 [unplugin-icons](https://www.npmjs.com/package/unplugin-icons)
 [unplugin-vue-components](https://www.npmjs.com/package/unplugin-vue-components)
 [@vitejs/plugin-legacy](https://www.npmjs.com/package/@vitejs/plugin-legacy)
-[vite-plugin-compression](https://www.npmjs.com/package/vite-plugin-compression)
+[vite-plugin-compress](https://github.com/alloc/vite-plugin-compress)
