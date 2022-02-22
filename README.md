@@ -4,4 +4,9 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 ## Recommended IDE Setup
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+-   [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+
+[unplugin-icons](https://www.npmjs.com/package/unplugin-icons)
+[unplugin-vue-components](https://www.npmjs.com/package/unplugin-vue-components)
+[@vitejs/plugin-legacy](https://www.npmjs.com/package/@vitejs/plugin-legacy)
+[vite-plugin-compression](https://www.npmjs.com/package/vite-plugin-compression)
