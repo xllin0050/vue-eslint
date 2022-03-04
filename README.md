@@ -10,3 +10,15 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 [unplugin-vue-components](https://www.npmjs.com/package/unplugin-vue-components)
 [@vitejs/plugin-legacy](https://www.npmjs.com/package/@vitejs/plugin-legacy)
 [vite-plugin-compress](https://github.com/alloc/vite-plugin-compress)
+
+## Todo
+
+'import/no-unresolved': 0,
+
+import { fileURLToPath } from 'url'
+
+resolve: {
+    alias: {
+        '@': fileURLToPath(new URL('./src', import.meta.url)),
+    },
+},
