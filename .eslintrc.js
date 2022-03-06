@@ -19,5 +19,6 @@ module.exports = {
         'no-console': 'off',
         'arrow-body-style': 'off',
         'prefer-arrow-callback': 'off',
+        'import/no-unresolved': 0,
     },
 }
